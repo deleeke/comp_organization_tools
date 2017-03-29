@@ -63,7 +63,7 @@ setup(
     ],
 
     # What does your project relate to?
-    keywords='sample setuptools development',
+    keywords='computer science education students binary conversion hexadecimal',
 
     # You can just specify the packages manually here if your project is
     # simple. Or you can use find_packages().
@@ -92,7 +92,7 @@ setup(
     # installed, specify them here.  If using Python 2.6 or less, then these
     # have to be included in MANIFEST.in as well.
     package_data={
-        'sample': ['package_data.dat'],
+        'comp_organization_tools': ['package_data.dat'],
     },
 
     # Although 'package_data' is the preferred approach, in some case you may

@@ -1,6 +1,8 @@
 # Filename: __init__.py
 from __future__ import print_function
 import math
+version='1.0.0'
+
 hex_bin_dict = { '0' : '0000',
              '1' : '0001',
              '2' : '0010',
@@ -12,7 +14,7 @@ hex_bin_dict = { '0' : '0000',
              '8' : '1000',
              '9' : '1001',
              'A' : '1010',
-             'B' : '1011', 
+             'B' : '1011',
              'C' : '1100',
              'D' : '1101',
              'E' : '1110',
@@ -45,7 +47,7 @@ def binToDec(num):
         print ("If negative, take two's complement")
         isNeg = True
         num_str = twosComplement(num_str)
-        
+
     for i in range(1,(len(num_str) +1)):
         result += ((int(num_str[-i]))*2**(i-1))
     #undo two's complement
@@ -109,7 +111,7 @@ def decToBin(num, wordsize=0):
     return_str = ''
     if (isNeg == False):
         return_str += '0'
-   
+
     for i in range(1, wordsize+1):
         num_decreased = num - (2**(wordsize - i))
         if (0 <= num_decreased <= num):
@@ -152,4 +154,4 @@ def binToHex(bin_str, wordsize=64):
         i += 4
     print ('%s --> 0x%s in hex' %(bin_str, hex_num))
     return hex_num
-        
+
