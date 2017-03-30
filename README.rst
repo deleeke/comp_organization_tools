@@ -27,3 +27,5 @@ Ideas for Contributing:
     * convert logical expressions to truth tables
 
 .. _pip: https://pypi.python.org/pypi/pip/
+
+Note: this package is based off a sample package from PyPUG's "Tutorial on Packaging and Distributing Projects". Other than the structure of the package, this project shares nothing in commmon with its parent fork.
