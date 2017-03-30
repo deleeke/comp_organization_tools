@@ -1,5 +1,5 @@
 Computer Organization Tools
-=======================
+==============================================
 
 This module provides some simple utilities for computer organization students.
 At the moment, it consists of conversion utilties to and from decimal integers, twos complement binary and hex integers.
@@ -7,7 +7,7 @@ At the moment, it consists of conversion utilties to and from decimal integers, 
 ----
 
 How to install:
-=======================
+==============================================
 This package is compatible with python 2, 2.7, 3, 3.4, 3.5 and possibly others. 
 For a system-wide install on linux (and presumably OSX, though I have not tested this) there are 
 two options. If you use pip_, you can navigate to the top directory of this project and run::
