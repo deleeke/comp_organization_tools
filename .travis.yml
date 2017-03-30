@@ -8,7 +8,7 @@ env:
 install: pip install tox future nose
 
 script:
-    python setup.py install comp_organization_tools
+    python setup.py install
     nosetests
 
 notifications:
