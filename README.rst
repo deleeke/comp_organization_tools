@@ -24,6 +24,9 @@ two options. If you use pip_, you can navigate to the top directory of this proj
 
 Ideas for Contributing:
     * write tests to ensure proper function of all combinations of input/function combinations
+    * installation directions for Anaconda users on non-unix based operating systems
     * convert logical expressions to truth tables
 
 .. _pip: https://pypi.python.org/pypi/pip/
+
+Note: this package is based off a sample package from PyPUG's "Tutorial on Packaging and Distributing Projects". Other than the structure of the package, this project shares nothing in commmon with its parent fork.
