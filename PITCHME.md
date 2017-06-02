@@ -5,5 +5,5 @@ Counting is hard
 Computer Organization:
 The class where you learn to convert binary to hex...
 ---
----?code=comp_organization_tools/_____init__.py
+---?code=comp\_organization\_tools/\_\_init\_\_.py
 @[23-38](Long enough to program a computer to do it for you)
